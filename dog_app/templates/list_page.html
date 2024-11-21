@@ -1,0 +1,53 @@
+{% extends 'base.html'%}
+{%block content%}
+
+
+{% if user_list%}
+<h1 class="text-center mt-4">Here is the list</h1>
+<table class="table table-warning table-striped mt-3 w-75  mx-auto">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Username</th>
+      <th scope="col">List Name</th>
+      <th scope="col">Creation Date</th>
+      <th scope="col">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for list in user_list%}
+    <tr>
+      <th scope="row">{{forloop.counter}}</th>
+      <td>{{list.user}}</td>
+      <td>{{list.name}}</td>
+      <td>{{list.creation_date}}</td>
+      <td>
+        <a href="{% url 'view_list' list.id %}">
+          View List
+        </a>
+        <form method="post" action="">
+          {% csrf_token %}
+          <input type="hidden" name="delete_list_id" value="{{ list.id }}" />
+          <button type="submit" class="btn btn-danger mt-1">Delete</button>
+        </form>
+      </td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{%else%}
+
+<h2 class="text-center mt-5">No response status code list of Dog is Created Yet! First create some then come here!
+</h2>
+<div class="d-flex justify-content-center align-items-center mt-4 ">
+  <a href="/search">
+    <button class="btn btn-sm btn-danger p-2">Go Back</button>
+  </a>
+</div>
+
+
+
+
+{%endif%}
+{%endblock%}

@@ -1,0 +1,46 @@
+{% extends 'base.html'%}
+{%block content%}
+
+<div class="mx-auto col-6 mt-5">
+  <h4 class="text-center">Search HTTP Response Codes to get corresponding Dog Picture</h4>
+  <a href="/list" class="d-flex justify-content-end align-items-center" style="text-decoration: none;">
+    <button class="btn btn-sm btn-warning">Show List</button>
+  </a>
+  <form method="get">
+    <div class="mb-3">
+      <label for="filter" class="form-label">
+        <h3>Filter:</h3>
+      </label>
+      <input type="text" class="form-control" name="filter" placeholder="e.g., 2xx, 20x, 404">
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+  <hr>
+
+  {% if images %}
+  <form class="mx-auto mt-4 card p-3 shadow-lg" method="post">
+    {% csrf_token %}
+    <label for="list_name">Save List Name:</label>
+    <input type="text" id="list_name" name="list_name" placeholder="Enter a list name" required />
+    <div class="container my-4">
+      <h2 class="text-center mb-4">Image List</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        {% for code,url in images.items%}
+        <div class="col">
+          <div class="card">
+            <h5 class="text-center">httpstatus code: {{code}}</h5>
+            <img src="{{url}}" class="card-img-top" alt="Image 1">
+          </div>
+        </div>
+        {%endfor%}
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Save List</button>
+  </form>
+  {% else %}
+  <h4 class="text-center">No images found!</h4>
+  {%endif%}
+
+
+
+  {%endblock%}
