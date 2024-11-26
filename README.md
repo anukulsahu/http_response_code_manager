@@ -64,7 +64,7 @@ A full-stack web application that enables users to explore, filter, save, and ma
 ## **Screenshots**
 ![Screenshot (50)](https://github.com/user-attachments/assets/1926ed59-4dc7-4b39-b4c9-2a41c3379314)
 ![Screenshot (51)](https://github.com/user-attachments/assets/1b92d921-dfe8-4127-8bfd-bb39120f1245)
-![Screenshot (54)](https://github.com/user-attachments/assets/200e07e7-4dc4-4f0b-b9ac-1c7300fda4b0)
+![Screenshot (66)](https://github.com/user-attachments/assets/6d5b28e6-e512-4251-83fd-7d2fa54e445a)
 ![Screenshot (55)](https://github.com/user-attachments/assets/cc9aaa66-e039-47ab-907c-8c9c3afa681f)
 ![Screenshot (56)](https://github.com/user-attachments/assets/6596b04e-7196-488e-afca-d6a69a039898)
 ![Screenshot (58)](https://github.com/user-attachments/assets/e6dc5117-a1be-4afc-a723-d5ab3937c8e3)
