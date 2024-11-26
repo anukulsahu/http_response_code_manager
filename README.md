@@ -70,6 +70,7 @@ A full-stack web application that enables users to explore, filter, save, and ma
 ![Screenshot (58)](https://github.com/user-attachments/assets/e6dc5117-a1be-4afc-a723-d5ab3937c8e3)
 ![Screenshot (59)](https://github.com/user-attachments/assets/0227bfcc-557b-41d1-bf17-d74854c5a344)
 ![Screenshot (60)](https://github.com/user-attachments/assets/269b3d23-10b5-46fb-ab7a-0982a458d509)
+**Delete**: A list is deleted by clicking on delete button
 ![Screenshot (63)](https://github.com/user-attachments/assets/14d83a0d-1178-4d99-b895-02ba23131a0e)
 
 
