@@ -29,3 +29,52 @@ A full-stack web application that enables users to explore, filter, save, and ma
    ```bash
    git clone https://github.com/your-username/http-response-code-manager.git
    cd http-response-code-manager
+
+## Usage
+1. **Register**:
+   - Navigate to the Sign-Up page..
+   - Fill in your credentials and submit the form to create a new account..
+   - Ensure your username is unique.
+
+2. **Login**:
+   - Navigate to the Login page.
+   - Enter your registered username and password.
+   - Submit the form to log in successfully..
+
+3. **Filter**:
+   - After logging in, you will be redirected to the Filter page.
+   - Use regex patterns (e.g., 2xx, 4xx, 52x) to filter HTTP response status codes.
+   - Matching dog images from http.dog will be displayed based on your filter.
+   - Save filtered results to a personalized list by assigning a name.
+
+4. **Lists**:
+   - Access the Lists page to view all the response code lists you’ve saved.
+   - Manage your saved lists:
+       - View the details of each list.
+       - Edit the list contents as needed.
+       - Delete lists you no longer need.
+
+5. **View**:
+   - Navigate to the View page to see the saved HTTP response codes along with their corresponding dog images. 
+
+6. **Logout** 
+   - Click on Logout to end your session securely.
+   - Once logged out, you will not be able to access previous pages directly via their URLs.
+
+## **Screenshots**
+![Screenshot (50)](https://github.com/user-attachments/assets/1926ed59-4dc7-4b39-b4c9-2a41c3379314)
+![Screenshot (51)](https://github.com/user-attachments/assets/1b92d921-dfe8-4127-8bfd-bb39120f1245)
+![Screenshot (54)](https://github.com/user-attachments/assets/200e07e7-4dc4-4f0b-b9ac-1c7300fda4b0)
+![Screenshot (55)](https://github.com/user-attachments/assets/cc9aaa66-e039-47ab-907c-8c9c3afa681f)
+![Screenshot (56)](https://github.com/user-attachments/assets/6596b04e-7196-488e-afca-d6a69a039898)
+![Screenshot (58)](https://github.com/user-attachments/assets/e6dc5117-a1be-4afc-a723-d5ab3937c8e3)
+![Screenshot (59)](https://github.com/user-attachments/assets/0227bfcc-557b-41d1-bf17-d74854c5a344)
+![Screenshot (63)](https://github.com/user-attachments/assets/960db386-e0f8-4c1a-b638-19b42e048146)
+
+
+
+
+
+
+
+
