@@ -19,7 +19,7 @@ A full-stack web application that enables users to explore, filter, save, and ma
 
 ### 🎨 **Tech Stack**
 - **Backend**: Python, Django, SQLite
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, BootStrap
 - **Database**: SQLite for data persistence
 - **APIs**: External integration with [http.dog](https://http.dog)
 
